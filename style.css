@@ -1,9 +1,9 @@
 html, body {
     background-color: #1a1b26;   
-    height: 100%;
+    height: 100vh;
     color: #a9b1d6;   
-    font-family: 'Overpass Mono', serif;
     position: relative;
+    font-family: 'Overpass Mono', serif;
     margin: 0;
     padding: 0;
     display: grid;
@@ -12,20 +12,33 @@ html, body {
 a:link, a:visited {
     color: #4aa2f7;
     text-decoration: none;
+    transition:.6s ease;
 }
 
 a:hover {
     color: #ffffff;
+    text-shadow: 0 0 19px #7799ff;
+    transition:.6s ease;
+}
+
+#i-use-arch-btw {
+    font-family: 'Iosevka Web';
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
 }
 
 #container {
     display: flex;
 }
 
+#padding-div {
+    padding: 40px;
+}
+
 #other {
     max-height: 100vh;
     overflow-y: scroll;
-    padding: 40px;
     flex-grow: 1;
 }
 
@@ -42,6 +55,11 @@ a:hover {
     animation-timing-function: linear;
     height
 
+}
+
+p {
+    font-family: 'Iosevka Web';
+    font-size: 20px;
 }
 
 @keyframes gradient {
