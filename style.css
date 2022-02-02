@@ -1,0 +1,48 @@
+html, body {
+    background-color: #1a1b26;   
+    height: 100%;
+    color: #a9b1d6;   
+    font-family: 'Overpass Mono', serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+}
+
+#container {
+    display: flex;
+}
+
+#other {
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+#groot {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform:scale(-1);
+    padding: 40px;
+    font-size: 95px;
+	background: linear-gradient(-45deg, #1a1b26, #101120, #1a1b26, #101120, #1a1b26);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    height
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	100% {
+		background-position: 100% 100%;
+	}
+}
+
+
