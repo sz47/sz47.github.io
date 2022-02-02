@@ -6,8 +6,16 @@ html, body {
     position: relative;
     margin: 0;
     padding: 0;
-
     display: grid;
+}
+
+a:link, a:visited {
+    color: #4aa2f7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 #container {
@@ -37,12 +45,8 @@ html, body {
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 0%;
+	0% { background-position: 0% 0%;
 	}
-	100% {
-		background-position: 100% 100%;
+	100% { background-position: 100% 100%;
 	}
 }
-
-
