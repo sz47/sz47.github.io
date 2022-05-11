@@ -68,3 +68,10 @@ p {
 	100% { background-position: 100% 100%;
 	}
 }
+
+
+@media (max-width: 768px) {
+    #groot {
+        display: none;
+    }
+}
